@@ -6,9 +6,9 @@ export async function load() {
 
 		if (paramsData) {
 			return {
-				data: {
-					...paramsData
-				}
+				data: [
+					paramsData
+				]
 			};
 		} else {
 			return {
